@@ -44,7 +44,7 @@ router.post(
 
     try {
       // search db by email
-      let user = await User.findOne({ email });
+      let user = await User.findOne({ email: email });
       // if email does not exist return error
       if (!user) {
         return res

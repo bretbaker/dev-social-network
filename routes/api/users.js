@@ -37,7 +37,7 @@ router.post(
 
     try {
       // search db by email
-      let user = await User.findOne({ email });
+      let user = await User.findOne({ email: email });
       // if email already exists return error
       if (user) {
         return res
