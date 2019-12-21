@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb://localhost/devhubmernz",
+  "jwtSecret": "secretToken",
+  "githubClientId": "aacf2a2284e4b78ba003",
+  "githubSecret": "ae15c9809dea988eb63dff6117ed8c3a6d8ee3ef"
+}
